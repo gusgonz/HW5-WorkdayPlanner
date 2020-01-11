@@ -2,7 +2,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 }
 
 textarea {
@@ -14,10 +14,15 @@ textarea {
 	padding: 10px;
 }
 
+.icon {
+	/* background: url(./save_icon.svg) no-repeat; */
+	width: 40px;
+	height: 40px;
+}
+
 .container-xs {
-	margin: 30px;
-	margin-top: 5px;
-	/* max-width: 976px; */
+	margin: auto;
+	max-width: 1234px;
 }
 
 .jumbotron {
@@ -80,5 +85,5 @@ textarea {
 }
 
 .time {
-	text-align: right;
+	text-align: center;
 }
