@@ -23,8 +23,12 @@ Green - This hour is in the future
 ## Credits
 
 Me
+
 Save icon by Mahesh Keshvala from the Noun Project
+
 moment.js library for getting the time
+
+Used https://codepen.io/richerimage/pen/jEXWWG for my alterClass() function
 
 
 
