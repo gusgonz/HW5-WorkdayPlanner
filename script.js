@@ -7,7 +7,6 @@ $('.saveBtn').click(function() {
 
 	if (todoItem !== '') {
 		localStorage.setItem(time, todoItem);
-		$(todoHourClass).addClass('saved-bold');
 	} else {
 		localStorage.removeItem(time);
 	}
@@ -22,7 +21,6 @@ function renderTodos() {
 		if (todoItem !== null) {
 			var todoHourClass = '.todo.' + x;
 			$(todoHourClass).text(todoItem);
-			$(todoHourClass).addClass('saved-bold');
 		}
 	}
 }
