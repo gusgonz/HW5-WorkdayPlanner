@@ -26,6 +26,7 @@ function renderTodos() {
 		if (todoItem !== null) {
 			var todoHourClass = '.todo.' + x;
 			$(todoHourClass).text(todoItem);
+			$(todoHourClass).addClass('saved-bold');
 		}
 	}
 }
