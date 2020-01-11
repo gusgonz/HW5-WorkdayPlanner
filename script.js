@@ -80,6 +80,7 @@ renderTime();
 renderTodos();
 renderColors();
 
+// for responsiveness
 $(document).ready(function() {
 	var alterClass = function() {
 		var ww = document.body.clientWidth;
