@@ -7,4 +7,8 @@ $('.saveBtn').click(function() {
 
 	var todoItem = $(todoHourClass).val();
 	console.log(todoItem);
+
+	if (todoItem !== '') {
+		localStorage.setItem(time, todoItem);
+	}
 });
