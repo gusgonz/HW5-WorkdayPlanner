@@ -80,9 +80,6 @@ function renderColors() {
 			}
 		}
 	}
-
-	console.log(currentHour);
-	console.log(ampm);
 }
 
 renderTime();
