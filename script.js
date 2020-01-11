@@ -5,7 +5,7 @@ $('.saveBtn').click(function() {
 	var todoHourClass = '.todo.' + time;
 	console.log(todoHourClass);
 
-	var todoItem = $(todoHourClass).val();
+	var todoItem = $(todoHourClass).val().trim();
 	console.log(todoItem);
 
 	if (todoItem !== '') {
