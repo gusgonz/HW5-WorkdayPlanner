@@ -79,3 +79,23 @@ function renderColors() {
 renderTime();
 renderTodos();
 renderColors();
+
+$(document).ready(function() {
+	var alterClass = function() {
+		var ww = document.body.clientWidth;
+		if (ww < 750) {
+			$('.hour').removeClass('col-1');
+			$('.hour').addClass('col-2');
+			$('.space').hide();
+		} else if (ww >= 750) {
+			$('.hour').removeClass('col-2');
+			$('.hour').addClass('col-1');
+			$('.space').show();
+		}
+	};
+	$(window).resize(function() {
+		alterClass();
+	});
+	//Fire it when the page first loads:
+	alterClass();
+});
