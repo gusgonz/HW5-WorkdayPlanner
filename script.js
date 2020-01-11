@@ -84,12 +84,12 @@ $(document).ready(function() {
 	var alterClass = function() {
 		var ww = document.body.clientWidth;
 		if (ww < 750) {
-			$('.hour').removeClass('col-1');
-			$('.hour').addClass('col-2');
+			$('.hour, .saveBtn').removeClass('col-1');
+			$('.hour, .saveBtn').addClass('col-2');
 			$('.space').hide();
 		} else if (ww >= 750) {
-			$('.hour').removeClass('col-2');
-			$('.hour').addClass('col-1');
+			$('.hour, .saveBtn').removeClass('col-2');
+			$('.hour, .saveBtn').addClass('col-1');
 			$('.space').show();
 		}
 	};
