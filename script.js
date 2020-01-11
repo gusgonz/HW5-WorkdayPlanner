@@ -13,3 +13,7 @@ $('.saveBtn').click(function() {
 		$(todoHourClass).addClass('saved-bold');
 	}
 });
+
+const hourArray = [ 'nine', 'ten', 'eleven', 'noon', 'one', 'two', 'three', 'four', 'five' ];
+
+function renderTodos() {}
