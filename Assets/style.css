@@ -2,7 +2,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1;
-	/* box-sizing: border-box; */
 }
 
 textarea {
@@ -15,7 +14,6 @@ textarea {
 }
 
 .icon {
-	/* background: url(./save_icon.svg) no-repeat; */
 	width: 40px;
 	height: 40px;
 }
