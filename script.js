@@ -35,10 +35,6 @@ function renderColors() {
 	var currentHour = moment().format('h');
 	var ampm = moment().format('a');
 
-	// FOR TESTING
-	// var currentHour = '3';
-	// var ampm = 'pm';
-
 	var both = currentHour + ampm;
 	var isequalFlag = false;
 	var flag = false;
