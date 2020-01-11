@@ -13,7 +13,7 @@ $('.saveBtn').click(function() {
 	}
 });
 
-const hourArray = [ 'nine', 'ten', 'eleven', 'noon', 'one', 'two', 'three', 'four', 'five' ];
+var hourArray = [ 'nine', 'ten', 'eleven', 'noon', 'one', 'two', 'three', 'four', 'five' ];
 
 function renderTodos() {
 	for (x of hourArray) {
@@ -27,4 +27,15 @@ function renderTodos() {
 	}
 }
 
+function renderTime() {
+	var currentDay = moment().format('dddd, MMMM Do');
+	$('#currentDay').text(currentDay);
+
+	var currentHour = moment().format('h');
+	var ampm = moment().format('a');
+	// console.log(currentHour);
+	// console.log(ampm);
+}
+
+renderTime();
 renderTodos();
