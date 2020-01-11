@@ -6,9 +6,10 @@ $('.saveBtn').click(function() {
 	console.log(todoHourClass);
 
 	var todoItem = $(todoHourClass).val().trim();
-	console.log(todoItem);
+	console.log(todoItem.length);
 
 	if (todoItem !== '') {
 		localStorage.setItem(time, todoItem);
+		$(todoHourClass).addClass('saved-bold');
 	}
 });
