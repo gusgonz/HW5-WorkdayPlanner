@@ -16,7 +16,7 @@ To use:
 COLOR KEY for timeboxes:
 Grey - This hour has already past today
 Red - This is the current hour
-Green - This hour is in the future
+Green - This hour is in the future today
 
 
 
